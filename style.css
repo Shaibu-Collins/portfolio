@@ -1,0 +1,259 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   /* header codes starts here */
+
+#header{
+    width: 100%;
+    min-height:50px;
+    background-color:black
+
+}
+#brand{
+    width: 25%;
+    min-height: 50px;
+    padding-left: 2%;
+    float: left;
+    line-height: 50px;
+    color: white;
+}
+
+#nav{
+    width: 75%;
+    min-height: 50px;
+    float: right;
+    line-height: 50px;
+    color: white;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav a{
+    display: inline-block;
+    width: 16%;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#nav a:hover{
+    text-decoration: underline
+}
+
+/* about codes starts here */
+#about{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+    
+}
+#about .inner{
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+}
+#about .inner #image{
+    width: 25%;
+    min-height: 400px;
+    float: left;
+    padding-top: 60px;
+}
+#about .inner #bio{
+    width: 75%;
+    min-height: 400px;
+    float: right;
+    padding-top: 60px;
+}
+#image img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 10px solid white;
+    margin-bottom: 20px;
+
+}
+ #image p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about .inner #bio h2{
+    margin-bottom: 20px;
+
+}
+#about .inner #bio p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#about .inner #bio a{
+    display: inline-block;
+    width: 25%;
+    min-height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    text-decoration:  none;
+    border-radius: 5px;
+}
+/* qualification codes starts here */
+#qualification{
+    width: 100%;
+    min-height: 400px;
+    background-color: gray;
+    padding-top: 50px;
+}
+#qualification h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#qualification table{
+    width: 70%;
+    min-height: 200px;
+    margin: auto;
+}
+#qualification table tr:nth-child(1){
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#qualification table tr:nth-child(even){
+    background-color: white;
+}
+
+/* skills codes starts here */
+#skills{
+    width: 100%;
+    min-height: 400px;
+    background-color:lightgray;
+    padding-top: 50px;
+}
+#skills h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#skills table{
+    width: 70%;
+    min-height: 200px;
+    margin: auto;
+}
+#skills table tr:nth-child(1){
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#skills table tr:nth-child(even){
+    background-color: white;
+}
+
+/* project codes starts here */
+#project{
+    width: 100%;
+    min-height: 400px;
+    background-color:gray;
+    padding-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#project h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#project .row{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#project .row .col{
+    width: 50%;
+    min-height: 300px;
+    color: white;
+    float: left;
+}
+#project .row .col p{
+    min-height: 40px;
+    text-align: center;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#project .row .col img{
+    width: 90%;
+    display: block;
+    margin: auto;
+
+}
+
+/* contact codes starts here */
+
+#contact{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+
+#contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* #contact form {
+    width: 30%;
+    background-color: black;
+    margin: auto;
+
+} */
+
+#contact h2:nth-child(1){
+    width: 50%;
+    margin: auto;
+
+}
+#contact label{
+    font-size: 20px;
+}
+#contact form input{
+    width: 100%;
+    height: 30px;
+}
+
+#contact textarea{
+    width: 50%;
+    min-height: 70px;
+}
+
+/* footer codes starts here */
+
+#footer{
+    width: 100%;
+    background-color: black;
+    min-height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-top: 20px;
+    
+}
+
+#top{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    line-height: 50px;
+}
